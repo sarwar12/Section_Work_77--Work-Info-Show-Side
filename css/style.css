@@ -1,0 +1,102 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Work Information Details SHow Start */
+.feature-1 .feature-bg{
+	background-image: url(../img/feature-1.jpeg);
+}
+.feature-2 .feature-bg{
+	background-image: url(../img/feature-2.jpg);
+}
+.feature-3 .feature-bg{
+	background-image: url(../img/feature-3.jpg);
+}
+.feature-4 .feature-bg{
+	background-image: url(../img/feature-4.jpg);
+}
+.single-features-item {
+  position: relative;
+  z-index: 1;
+}
+.feature-bg {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+  content: "";
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.single-features-item-text {
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  padding: 40px;
+}
+body {
+  font-size: 17px;
+  line-height: 1.8;
+}
+.single-features-item-text h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+}
+.single-features-item-text {
+  position: relative;
+  padding-left: 120px;
+  border-bottom: 2px solid #fe5d3e;
+}
+.feature-no {
+  position: absolute;
+  left: 40px;
+  top: 6px;
+  font-size: 50px;
+  opacity: .3;
+  z-index: 1;
+  font-weight: 700;
+  bottom: -50px;
+}
+.feature-no:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 16px;
+  height: 90px;
+  width: 1px;
+  background: #333;
+  transform: rotate(40deg);
+}
+.feature-bg {
+  bottom: -50px;
+}
+.feature-2 .single-features-item-text {
+  border-color: #2ac893;
+}
+.feature-3 .single-features-item-text {
+  border-color: orange;
+}
+.feature-4 .single-features-item-text {
+  border-color: pink;
+}
+/* Work Information Details SHow Stop */
